@@ -6,7 +6,7 @@
 
 #include"scheduler.h"
 
-int main(void) {
+void main(void) {
 
 
 	 SYS();
@@ -21,6 +21,5 @@ int main(void) {
 		schedule();
 	}
 
-
-//	return 0;
+	
 }
