@@ -2,7 +2,8 @@
 #include"tm4c123gh6pm.h"
 #include"UART0_DRIVER.h"
 #include"stdint.h"
-void UART0_init(void){
+void UART0_init(void)
+{
 	SYSCTL_RCGCUART_R|=0x80;
 	SYSCTL_RCGCGPIO_R|=0x10;
 	GPIO_PORTE_AFSEL_R|=0x02;
