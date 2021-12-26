@@ -2,7 +2,7 @@
 
 #include"scheduler.h"
 
-int main(void) {
+void main(void) {
 
 	PortB_Init();
 	 SYS();
@@ -15,7 +15,5 @@ int main(void) {
 
 		schedule();
 	}
-
-
-//	return 0;
+	
 }
